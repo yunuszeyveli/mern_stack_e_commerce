@@ -147,8 +147,9 @@ Create a `.env` file in the backend directory:
 ```
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
-JWT_SECRET=your_jwt_secret
-PAYMENT_API_KEY=your_payment_gateway_key
+CLIENT_DOMAIN=http://localhost:5173
+STRIPE_SECRET_KEY=your_payment_gateway_key
 ```
 
 #
+
